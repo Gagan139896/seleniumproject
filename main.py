@@ -17,5 +17,5 @@ print(password.is_enabled()) #return true/false
 password.send_keys("Crochet@786")
 
 driver.find_element_by_xpath("//div[@class='login_box_inner']/form[2]/div[4]/div/div[2]/input").click()
-time.sleep(10)
+time.sleep(20)
 driver.close() #close the browser
